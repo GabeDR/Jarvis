@@ -17,7 +17,7 @@ ollama library
 ## Installation
 Ensure Python and the necessary libraries are installed:
 ```
-pip install openai speechrecognition torch ollama
+pip install openai speechrecognition torch ollama RealtimeSTT
 ```
 
 Go to https://platform.openai.com/assistants to set up your assistant to get
