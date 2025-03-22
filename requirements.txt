@@ -3,3 +3,5 @@ SpeechRecognition
 --extra-index-url https://download.pytorch.org/whl/cu116
 torch
 git+https://github.com/openai/whisper.git
+transformers
+pygame

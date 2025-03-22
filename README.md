@@ -1,22 +1,23 @@
 # Jarvis
-This Python script, jarvis.py, emulates a conversational AI assistant similar to Jarvis from Iron Man. It utilizes OpenAI's Whisper V3 for accurate speech recognition, GPT-3.5 Turbo for intelligent and context-aware response generation, and OpenAI's TTS (Text-to-Speech) to verbalize responses.
+This Python script, jarvis.py, emulates a conversational AI assistant similar to Jarvis from Iron Man. It utilizes OpenAI's Whisper V3 for accurate speech recognition, and a local LLM like LLaMa for intelligent and context-aware response generation, and OpenAI's TTS (Text-to-Speech) to verbalize responses.
 
 # Features
 Real-Time Speech Recognition: Leveraging Whisper V3 to convert spoken language into text.
-Intelligent Response Generation: Uses GPT-3.5 Turbo to generate relevant responses based on the user's input.
+Intelligent Response Generation: Uses a local LLM like LLaMa to generate relevant responses based on the user's input.
 Speech Output: Converts text responses back into speech using OpenAI's TTS, providing a seamless conversational experience.
 Hotword Detection: The script actively listens for specific trigger words to initiate interaction.
 
 # Requirements
 Python 3.9+
-OpenAI's Whisper, GPT, and TTS models
+OpenAI's Whisper and TTS models
 SpeechRecognition library
 PyTorch
+ollama library
 
 ## Installation
 Ensure Python and the necessary libraries are installed:
 ```
-pip install openai speechrecognition torch
+pip install openai speechrecognition torch ollama
 ```
 
 Go to https://platform.openai.com/assistants to set up your assistant to get
